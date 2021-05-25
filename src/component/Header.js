@@ -5,7 +5,7 @@ import { FcCustomerSupport ,FcHome, FcCloseUpMode} from "react-icons/fc";
 import { SiArchicad, SiBeats,SiFigshare } from "react-icons/si";
 import { FaShippingFast } from "react-icons/fa";
 import { IoLanguageOutline} from "react-icons/io5"
-import {FaFacebook} from "react-icons/fa"
+import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa"
 import { motion } from "framer-motion";
 
 
@@ -38,15 +38,19 @@ export default function Header() {
      </div>
      
      <div className="fw-light topHeader d-flex  justify-content-center align-items-center ">
-       <a href="https://www.facebook.com/Ayoob222/" className="me-3 pe-auto">
-      <FaFacebook/>
+       <a href="https://www.facebook.com/Ayoob222/" className="nav-link  fs-4 text-warning">
+      <FaFacebook />
        </a>
 
-     <Link  className="me-3">
-     <img src="https://img-premium.flaticon.com/png/512/733/733579.png?token=exp=1621346010~hmac=47e43742bb1474fd4ad759135db0c40a"  width='20'  alt="" />
+     <Link  className="">
+     <a href="" className="nav-link  fs-4 text-warning">
+     <FaTwitter/></a>
+ 
      </Link >
-     <Link  className="me-5">
-     <img src="https://img-premium.flaticon.com/png/512/2111/2111463.png?token=exp=1621346085~hmac=f5a52bb45432c20cfc354f8e6aff3e40"  width='20'  alt="" />
+     <Link  className="">
+     <a href="" className="nav-link  fs-4 text-warning">    <FaInstagram/>
+     </a>
+
      </Link >
      </div>
 
