@@ -5,6 +5,7 @@ import { FcCustomerSupport ,FcHome, FcCloseUpMode} from "react-icons/fc";
 import { SiArchicad, SiBeats,SiFigshare } from "react-icons/si";
 import { FaShippingFast } from "react-icons/fa";
 import { IoLanguageOutline} from "react-icons/io5"
+import {FaFacebook} from "react-icons/fa"
 import { motion } from "framer-motion";
 
 
@@ -38,7 +39,7 @@ export default function Header() {
      
      <div className="fw-light topHeader d-flex  justify-content-center align-items-center ">
        <a href="https://www.facebook.com/Ayoob222/" className="me-3 pe-auto">
-       <img src="https://img-premium.flaticon.com/png/512/739/premium/739135.png?token=exp=1621345857~hmac=92765b83d92f2e57e0c4e2547d093654"  width='20'  alt="" />
+      <FaFacebook/>
        </a>
 
      <Link  className="me-3">
