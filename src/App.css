@@ -1,0 +1,73 @@
+
+body{
+    font-family: 'Indie Flower'; 
+    /* background-image: url(https://designshack.net/wp-content/uploads/geo-background.jpg);
+    background-size: cover; */
+   
+}
+
+.headerSelect{
+    height: 20px;
+}
+
+.navbar-nav{
+    margin-left: 20%;
+}
+
+.heading{
+    font-family: 'Indie Flower';
+    font-weight: bolder;
+}
+
+.images{
+    width: 250px;
+    height: 250px;
+  
+}
+
+.cartCard{
+    height: 100%;
+}
+.spanCart{
+    position: absolute;
+    top: -1px;
+    left: 80px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+
+.title,
+button,
+p
+{
+    font-family: 'Indie Flower';
+    font-weight: bold;
+}
+
+
+.cards:hover {
+opacity: 0.75;
+transform: scale(1.02,1 );
+}
+
+.nav-link:hover{
+transform: scale(1,1.5);
+
+}
+
+.contact{
+    background-color: rgba(225, 240, 9, 0.61);
+}
+
+.form{
+    width: 400px;
+}
+.tel{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+
+
