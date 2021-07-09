@@ -69,4 +69,34 @@ transform: scale(1,1.5);
   .margin{
       margin-left: 10px;
   }
+
   }
+  @media only screen and (max-width: 600px) {
+    .homeFlex{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  .recenter{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lastfooterFlex{
+      display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerFlex{
+    flex-direction: column;
+    flex-wrap: wrap;
+   padding: 10px;
+}
+    }
+  

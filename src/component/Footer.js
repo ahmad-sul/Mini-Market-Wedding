@@ -1,15 +1,16 @@
 import React from 'react'
 import {  Link} from "react-router-dom";
-import { FaCcVisa, FaCcMastercard, FaCcPaypal} from "react-icons/fa";
+import {FaFacebook, FaCcVisa, FaCcMastercard, FaCcPaypal} from "react-icons/fa";
 import { ImHome , ImMobile, ImWhatsapp } from "react-icons/im";
+// import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa"
 
 export default function Footer() {
     return (
-        <div className='footer mt-3'>
+        <div className='footer mt-3 d-flex flex-column'>
 
       <section className='d-flex  justify-content-center align-items-center bg-light '>
       <a href="https://www.facebook.com/Ayoob222/" className="m-3 pe-auto">
-      <img src="https://img-premium.flaticon.com/png/512/739/premium/739135.png?token=exp=1621345857~hmac=92765b83d92f2e57e0c4e2547d093654"  width='40'  alt="" />
+      <FaFacebook />
       </a>
 
     <Link  className="m-3">
@@ -21,7 +22,7 @@ export default function Footer() {
     
       </section>
 
-      <section className=' text-white bg-dark d-flex justify-content-evenly '>
+      <section className=' text-white bg-dark d-flex justify-content-evenly footerFlex'>
       <div className=''>
     <h5 className='border-bottom border-warning p-2'>My account and services</h5>
    
@@ -62,9 +63,9 @@ export default function Footer() {
 Conditions</Link></p>
      <p className=''> <Link activeClassName="active"  to="/imprint" className='text-white'>imprint</Link></p>
     </div>
-    <section className='d-flex flex-column justify-content-center'>
-          <span className='fs-1 ms-5 text-warning'><FaCcVisa/></span>
-          <span className='fs-1 ms-5 text-warning'><FaCcMastercard/></span>
+    <section className='  lastfooterFlex'>
+          <span className='fs-1 ms-5 text-warning'><FaCcVisa/></span><br />
+          <span className='fs-1 ms-5 text-warning'><FaCcMastercard/></span><br />
           <span className='fs-1 ms-5 text-warning'><FaCcPaypal/></span>
       </section>
       </section>
