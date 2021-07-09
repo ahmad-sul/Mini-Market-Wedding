@@ -27,24 +27,22 @@ export default function Cart() {
     return (
 <div className='container'>
         <div className='bg-warning heading container mb-3 shadow rounded ' >
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='flexItem d-flex justify-content-between align-items-center'>
 
-  <h1 className=' p-3 fs-1 ms-5'>Product ....</h1>
+               <h1 className=' p-3 fs-1 ms-5'>Product ....</h1>
 
-        <h2 className='text-danger'>Total: {total.toFixed(2)} € </h2>
+              <h2 className='text-danger'>Total: {total.toFixed(2)} € </h2>
 
             </div>
-      
-       
         </div>
+        
         <div className=' row row-cols-1 row-cols-md-2 g-4'>
             {cart && cart.map(item=>{
 
                 return (
                     <div className='col-sm-2 '>
-                    <Card className=' d-flex flex-row justify-content-between  cartCard'>
+                    <Card className=' d-flex  justify-content-between  cartCard'>
                         <div className='col-md-6'>
-
                              <Card.Img variant="top" src={item.img} className='images' />
                         </div>
                    <div className='col-md-6 w-100 d-flex flex-column justify-content-between'>

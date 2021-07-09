@@ -99,7 +99,56 @@ transform: scale(1,1.5);
    padding: 10px;
 }
 .cartCard{
-    /* flex-direction: column; */
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+.flexItem{
+    flex-direction: column;
+    flex-wrap: wrap;
 }
     }
   
+
+ 
+    /* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    .homeFlex{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  .recenter{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lastfooterFlex{
+      display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerFlex{
+    flex-direction: column;
+    flex-wrap: wrap;
+   padding: 10px;
+}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {  } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {  }  */
