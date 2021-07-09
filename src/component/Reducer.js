@@ -7,7 +7,7 @@ let CannedFoodInfos = [{
   }, {
     "id": 2,
     "name": 'Durra tuna olive oil 160 g',
-    "avatar": 'https://www.maisonsyrienne.lu/2052-large_default/%D8%A7%D9%84%D8%AF%D8%B1%D8%A9-%D8%AA%D9%88%D9%86%D8%A7-%D8%B2%D9%8A%D8%AA-%D9%86%D8%A8%D8%A7%D9%86%D9%8A-160-%D8%AC%D8%B1%D8%A7%D9%85.jpg',
+    "avatar": 'https://dibaonline.de/media/image/product/1301/lg/durra-tuna-skipjack-with-vegetable-oil-160g.png',
     "price": '1.35€',
     'number': 1
   }, {
@@ -19,7 +19,7 @@ let CannedFoodInfos = [{
   }, {
     "id": 4,
     "name": 'Durra mustard 290 grams',
-    "avatar": 'https://www.maisonsyrienne.lu/1505-large_default/%D8%A7%D9%84%D8%AF%D8%B1%D8%A9-%D8%AE%D8%B1%D8%AF%D9%84-290-%D8%AC%D8%B1%D8%A7%D9%85.jpg',
+    "avatar": 'https://mozzaik.cstatic.io/media/image/05/58/34/DSC_0900OQR3mE2qUqQGP_1280x1280.jpg',
     "price": '1.25€',
     'number': 1
   }, {
