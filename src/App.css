@@ -98,5 +98,8 @@ transform: scale(1,1.5);
     flex-wrap: wrap;
    padding: 10px;
 }
+.cartCard{
+    flex-direction: column;
+}
     }
   
