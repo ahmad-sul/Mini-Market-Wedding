@@ -60,7 +60,7 @@ export default function Cart() {
                    <div>
                    <Button className='cardButton2 text-white w-100 ' variant="warning" onClick={()=>dispatch({type:'removeitem',payload:{id:item.id,name:item.name,price:item.price,img:item.img}})}>Remove Item</Button>
 
-                        <Button className='cardButton2 text-white w-100 mt-2' variant="warning" onClick={()=>dispatch({type:'removeAllItems',payload:{id:item.id,name:item.title,price:item.price,img:item.img}})}>Remove All</Button>
+                        <Button className='cardButton2 text-white w-100 mt-2' variant="warning" onClick={()=>dispatch({type:'removeAllItems',payload:{id:item.id,name:item.name,price:item.price,img:item.img}})}>Remove All</Button>
                    </div>
                   
 

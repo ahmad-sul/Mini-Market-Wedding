@@ -72,19 +72,21 @@ export default function Header() {
         className='text-warning fs-4'
       style={{display:'flex',background:'rgba(255, 255, 255, 0.11)', alignItems:'center', justifyContent:'center'}}>ONLINE SHOP</motion.span> 
        </h1>
-
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
    
             
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li className="nav-item">
-        <NavLink activeClassName="active"  to="/" className=' nav-link active border-start border-danger p-3 '>Home<FcHome style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
+        <NavLink activeClassName="active"  to="/" className='margin nav-link active border-start border-danger p-3  '>Home<FcHome style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
         </li>
         <li className="nav-item" >
-        <NavLink activeClassName="active"  to="/product" className='nav-link  ms-4  border-start border-danger p-3'>Product<FcCloseUpMode style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
+        <NavLink activeClassName="active"  to="/product" className='nav-link margin   border-start border-danger p-3'>Product<FcCloseUpMode style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
         </li>
         <li className="nav-item">
-        <NavLink activeClassName="active"  to="/contactUs" className='nav-link ms-4 border-start border-danger p-3 '>Contact Us<FcCustomerSupport style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
+        <NavLink activeClassName="active"  to="/contactUs" className='nav-link margin border-start border-danger p-3 '>Contact Us<FcCustomerSupport style={{fontSize:'30' , marginLeft:'10px'}}/></NavLink>
         </li>
       </ul>
 
@@ -92,9 +94,7 @@ export default function Header() {
         <h5  className="position-relative d-flex align-items-center fw-light fs-5 border border-warning bg-warning rounded-pill"><span className="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2 ">{showNum()}</span><Link className='text-dark nav-link' style={{fontSize:'10'}} to='/cart'>CART <FaShoppingCart  style={{fontSize:'20'}}/></Link> </h5>
 
         <h4 className="d-flex align-items-center fw-light fs-5 border border-warning ms-3 bg-warning rounded-pill"><Link className='text-dark nav-link' style={{fontSize:'10'}} to='/contactUs'>LOGIN <BsFillPersonPlusFill  style={{fontSize:'20'}}/></Link>  </h4>
-
- 
-</div>
+        </div>
      
      
   

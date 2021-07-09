@@ -308,21 +308,18 @@ let CannedFoodInfos = [{
            }
        
            case 'removeAllItems':
-
-            let removAllitem = state.cart.find(item => item.name === action.payload.name);
-        let removeAllindex = state.cart.indexOf(removAllitem);
-        let removeAllitemCart = [...state.cart];
-        removeAllitemCart.splice(removeAllindex, 1);
+            console.log(state.cart);
+            let removAllitem = state.cart.filter(item =>item.name !== action.payload.name);
         return { ...state,
-            cart: removeAllitemCart
+            cart: removAllitem
           };
       
              
-           case 'removeall':
-        let removeallCart = [];
-        return { ...state,
-          cart: removeallCart
-        };
+        //    case 'removeall':
+        // let removeallCart = [];
+        // return { ...state,
+        //   cart: removeallCart
+        // };
   
       case "load":
         return { ...state.cart
