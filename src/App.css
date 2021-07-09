@@ -1,10 +1,4 @@
 
-body{
-    /* font-family: 'Indie Flower';  */
-    /* background-image: url(https://designshack.net/wp-content/uploads/geo-background.jpg);
-    background-size: cover; */
-   
-}
 
 .headerSelect{
     height: 20px;
@@ -42,8 +36,9 @@ body{
 button,
 p
 {
-    font-family: 'Indie Flower';
+    /* font-family: 'Indie Flower'; */
     font-weight: bold;
+    
 }
 
 
@@ -57,9 +52,9 @@ transform: scale(1,1.5);
 
 }
 
-.contact{
+/* .contact{
     background-color: rgba(225, 240, 9, 0.61);
-}
+} */
 
 .form{
     width: 400px;

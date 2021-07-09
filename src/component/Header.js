@@ -70,10 +70,10 @@ export default function Header() {
           repeatDelay:1
         }}
         className='text-warning fs-4'
-      style={{display:'flex',background:'rgba(255, 255, 255, 0.11)', alignItems:'center', justifyContent:'center'}}>ONLINE SHOP</motion.span>
-      </h1>
+      style={{display:'flex',background:'rgba(255, 255, 255, 0.11)', alignItems:'center', justifyContent:'center'}}>ONLINE SHOP</motion.span> 
+       </h1>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
    
             
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
