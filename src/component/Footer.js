@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link} from "react-router-dom";
+import {  Link} from "react-router-dom";
 import { FaCcVisa, FaCcMastercard, FaCcPaypal} from "react-icons/fa";
 import { ImHome , ImMobile, ImWhatsapp } from "react-icons/im";
 

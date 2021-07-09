@@ -73,7 +73,7 @@ let oilsProducts = oilsData.map(item=>{
         return (
           <ProductCard
           key={item.id}
-          key={item.id}
+        
           number={item.number}
             img={item.avatar}
             name={item.name}

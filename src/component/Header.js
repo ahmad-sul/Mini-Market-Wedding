@@ -43,12 +43,12 @@ export default function Header() {
        </a>
 
      <Link  className="">
-     <a href="" className="nav-link  fs-4 text-warning">
+     <a href="https://www.twitter.com" className="nav-link  fs-4 text-warning">
      <FaTwitter/></a>
  
      </Link >
      <Link  className="">
-     <a href="" className="nav-link  fs-4 text-warning">    <FaInstagram/>
+     <a href="https://www.instagram.com" className="nav-link  fs-4 text-warning">    <FaInstagram/>
      </a>
 
      </Link >
