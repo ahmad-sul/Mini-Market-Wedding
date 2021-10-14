@@ -61,13 +61,13 @@ export default function ContactUs() {
       <Form className='w-75 '>
     <Form.Group controlId="formBasicText">
     <Form.Label>Name</Form.Label>
-    <Form.Control type="text" placeholder="enter your name" />
+    <Form.Control type="text"  />
     
   </Form.Group>
         
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Control type="email"/>
     <Form.Text className="text-muted">
       We'll never share your email with anyone else.
     </Form.Text>
