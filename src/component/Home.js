@@ -23,7 +23,7 @@ render() {
     </div>
     
          <div className="col-md-6 text-center">
-                       <img src='https://scontent-ber1-1.xx.fbcdn.net/v/t1.6435-1/122940660_3017756205157079_1922317843292772306_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=dbb9e7&_nc_ohc=wS-NkElrGeIAX_rQbMQ&_nc_oc=AQmALpvnIPqtp3s0c94iSxqEJnVr-Sn_6E8F631SIJ4Y_iQtHRsP40vHx18uMA0nnYeR_ui5geT5B00L0DDquNyS&_nc_ht=scontent-ber1-1.xx&oh=dff2e6814041a1bb0dd5a4ea5f3ab9de&oe=60EC72B8' width='80%'  className="homeImage img   " alt="" />
+                       <img src='https://scontent-ber1-1.xx.fbcdn.net/v/t1.6435-9/122940660_3017756205157079_1922317843292772306_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=jwPMBg29cKEAX_hVXfJ&_nc_oc=AQmy0e1Q0LCX7Ht_L3VvOve-oSpXgMmu4OYqooLwLfGAm7ViagIWobXJA2004MY6Rq8&_nc_ht=scontent-ber1-1.xx&oh=4a6c503a011f78c05a6d8fc8a63392a9&oe=6123BE88' width='60%'  className="homeImage img   " alt="" />
                    </div>
         </div>
         </div>
