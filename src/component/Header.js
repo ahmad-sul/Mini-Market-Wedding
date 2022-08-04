@@ -2,11 +2,7 @@ import React from 'react'
 import { FaShoppingCart} from  "@react-icons/all-files/fa/FaShoppingCart";
 import {BsFillPersonPlusFill}from "react-icons/bs";
 import { FcCustomerSupport ,FcHome, FcCloseUpMode} from "react-icons/fc";
-import { SiArchicad, SiBeats,SiFigshare } from "react-icons/si";
-import { FaShippingFast } from "react-icons/fa";
-import { IoLanguageOutline} from "react-icons/io5"
-import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa"
-import { motion } from "framer-motion";
+
 import Logo from '../component/images/Wedding (2).png'
 
 

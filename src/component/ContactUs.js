@@ -1,5 +1,4 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
 import image2 from "./images/location.bmp";
 
 import { motion } from "framer-motion";
@@ -16,12 +15,8 @@ export default function ContactUs() {
     let phone = e.target.phone.value;
     let message = e.target.message.value
     let url = "https://wa.me/";
-  let end_url = `${url}${MyPhone}?text=`+"*Name :* "+name+"%0a"
-  +"*Email :* "+email+"%0a"
-  +"*Phone :* "+phone+"%0a"
-  
-  +"*Message :* "+message;
- 
+  let end_url = `${url}${MyPhone}?text= ${message}` 
+
 
   console.log(end_url);
  
