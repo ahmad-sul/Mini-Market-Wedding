@@ -7,6 +7,7 @@ import { FaShippingFast } from "react-icons/fa";
 import { IoLanguageOutline} from "react-icons/io5"
 import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa"
 import { motion } from "framer-motion";
+import Logo from '../component/images/Wedding (2).png'
 
 
 import { NavLink, Link} from "react-router-dom";
@@ -23,55 +24,18 @@ export default function Header() {
   return (
     <div className='shadow  rounded '>
 
-      <nav className=" navbar navbar-dark bg-dark">
-      <div className="fw-light topHeader d-flex  justify-content-center align-items-center">< IoLanguageOutline  style={{fontSize:'20',color:'white', marginRight:'10px'}}/> 
-    
-      <Link className="me-1"><img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Palestine.png"  width='20'  alt="" /></Link>
-
-      <Link className="me-1"><img src="https://aux2.iconspalace.com/uploads/424097756.png"  width='20'  alt="" /></Link>
-
-      <Link className="me-1 "><img src="https://icon-library.com/images/united-kingdom-flag-icon/united-kingdom-flag-icon-3.jpg"  width='20'  alt="" /></Link>
-
-      <NavLink activeClassName="active"  to="/shipping" className='nav-link text-warning'><FaShippingFast/></NavLink>
-      
-
-     </div>
      
-     <div className="fw-light topHeader d-flex  justify-content-center align-items-center ">
-       <a href="https://www.facebook.com/Ayoob222/" className="nav-link  fs-4 text-warning">
-      <FaFacebook />
-       </a>
-
-     <Link  className="">
-     <a href="https://www.twitter.com" className="nav-link  fs-4 text-warning">
-     <FaTwitter/></a>
- 
-     </Link >
-     <Link  className="">
-     <a href="https://www.instagram.com" className="nav-link  fs-4 text-warning">    <FaInstagram/>
-     </a>
-
-     </Link >
-     </div>
-
-</nav>
       <nav className='headerNavBar navbar navbar-expand-lg navbar-light '>
         <div className="container-fluid">
-        <h1 className=''><SiArchicad/><span className='fs-1'>y</span><SiFigshare/><SiFigshare/><SiBeats/> <motion.span
-        animate={{
-          scale: [1, 1.3, 1.3, 1, 1],
-          borderRadius: ["50%", "50%", "50%", "50%", "50%"]
-        }}
-        transition={{
-          duration: 0.5,
-          ease: "easeInOut",
-          times: [0, 0.1, 0.5, 0.5, 0.5],
-          loop: Infinity,
-          repeatDelay:1
-        }}
-        className='text-warning fs-4'
-      style={{display:'flex',background:'rgba(255, 255, 255, 0.11)', alignItems:'center', justifyContent:'center'}}>ONLINE SHOP</motion.span> 
-       </h1>
+        <nav class="navbar ">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src={Logo} alt="logo" width={200} height={150}/>
+    </a>
+  </div>
+</nav>
+        
+       
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

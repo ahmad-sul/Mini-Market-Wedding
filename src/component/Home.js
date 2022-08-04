@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import bannerImg from "./images/2.jpg";
+import bannerImg from "./images/20220730_151341.jpg";
+
 
 export default class App extends Component {
   render() {
@@ -22,12 +23,13 @@ export default class App extends Component {
           <div className="col-md-8 text-center">
             <img
               src={bannerImg}
-              width="50%"
+              width="100%"
               className="homeImage img   "
               alt=""
             />
           </div>
         </div>
+  
       </div>
     );
   }
