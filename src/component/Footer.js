@@ -89,7 +89,8 @@ export default function Footer() {
               {" "}
               <a
                 className="  text-white text-center"
-                href="https://g.page/markt-ayoob-2?share"
+                href="https://www.google.com/search?authuser=0&tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=ALiCzsYEfjoYLHGARBbzb6F5tMqO5fxcGA:1659626469819&q=minimarkt+wedding&rflfq=1&num=10&rldimm=11022343119768639238#rlfi=hd:;si:5171967835969211815;mv:[[52.54699834293099,13.383468873421354],[52.53959914340885,13.359522111336393],null,[52.5432988990735,13.371495492378873],16]"
+            target="_blank" rel="noreferrer"
               >
                 Gerichtstraße 10, 13347 Berlin
               </a>
@@ -108,7 +109,7 @@ export default function Footer() {
             <p className="ms-4">
               <a
                 className="text-white"
-                href="https://wa.me/+491631116313" target="_blank"
+                href="https://wa.me/+491631116313" target="_blank" rel="noreferrer"
               >
               0163 1116343
               </a>{" "}

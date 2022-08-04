@@ -10,9 +10,9 @@ export default function ContactUs() {
     e.preventDefault();
     
     const MyPhone = '+491631116313';
-    let name = e.target.name.value;
-    let email = e.target.email.value;
-    let phone = e.target.phone.value;
+    // let name = e.target.name.value;
+    // let email = e.target.email.value;
+    // let phone = e.target.phone.value;
     let message = e.target.message.value
     let url = "https://wa.me/";
   let end_url = `${url}${MyPhone}?text= ${message}` 
@@ -53,7 +53,7 @@ export default function ContactUs() {
             }}
             className="text-danger  text-center text-decoration-none mb-5"
             href="https://www.google.com/search?authuser=0&tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=ALiCzsYEfjoYLHGARBbzb6F5tMqO5fxcGA:1659626469819&q=minimarkt+wedding&rflfq=1&num=10&rldimm=11022343119768639238#rlfi=hd:;si:5171967835969211815;mv:[[52.54699834293099,13.383468873421354],[52.53959914340885,13.359522111336393],null,[52.5432988990735,13.371495492378873],16]"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Gerichtstraße 10, 13347 Berlin
           </motion.a>
@@ -61,7 +61,7 @@ export default function ContactUs() {
           <a
             className="App-link fs-5"
             href="https://www.google.com/search?authuser=0&tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=ALiCzsYEfjoYLHGARBbzb6F5tMqO5fxcGA:1659626469819&q=minimarkt+wedding&rflfq=1&num=10&rldimm=11022343119768639238#rlfi=hd:;si:5171967835969211815;mv:[[52.54699834293099,13.383468873421354],[52.53959914340885,13.359522111336393],null,[52.5432988990735,13.371495492378873],16]"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             &#9755;
             <img src={image2} alt="" width="350" height="200" />
