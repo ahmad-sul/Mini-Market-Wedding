@@ -71,7 +71,7 @@ export default function ContactUs() {
         <div className="form contact d-flex flex-column align-items-center ">
           <p className="fs-1 text-danger">Contact us</p>
 
-          <span className=" ">&#9742; 0163 1116343 /</span>
+          <span className=" ">&#9742; 0163 1116313 /</span>
 
 
           <script src="https://code.jquery.com/jquery-3.4.1.min.js"
