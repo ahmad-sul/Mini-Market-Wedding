@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import bannerImg from "./images/20220730_151341.jpg";
 import bannerImg1 from "./images/20220730_151115.jpg";
-import bannerImg2 from "./images/20220730_151138.jpg";
-import bannerImg3 from "./images/20220730_151221.jpg";
-import bannerImg4 from "./images/20220730_151203.jpg";
 import bannerImg5 from "./images/20220730_151239.jpg";
-import bannerImg6 from "./images/20220730_151142.jpg";
-import bannerImg7 from "./images/20220730_151213.jpg";
-import bannerImg8 from "./images/20220730_151146.jpg";
+
+
 
 
 export default class App extends Component {
