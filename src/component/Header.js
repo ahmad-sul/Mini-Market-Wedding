@@ -18,15 +18,15 @@ export default function Header() {
     }
   }
   return (
-    <div className='shadow  rounded '>
+    <div className=' rounded header '>
 
      
       <nav className='headerNavBar navbar navbar-expand-lg navbar-light '>
         <div className="container-fluid">
         <nav class="navbar ">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      <img src={Logo} alt="logo" width={200} height={150}/>
+    <a class="navbar-brand " href="/">
+      <img src={Logo} alt="logo" className='logoImg' />
     </a>
   </div>
 </nav>

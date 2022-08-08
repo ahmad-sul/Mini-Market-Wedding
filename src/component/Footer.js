@@ -110,7 +110,7 @@ export default function Footer() {
                 className="text-white"
                 href="https://wa.me/+491631116313" target="_blank" rel="noreferrer"
               >
-              0163 1116343
+              0163 1116313
               </a>{" "}
             </p>
           </article>

@@ -47,7 +47,7 @@ export default function Product() {
          />
      })
     return (
-        <div className=' bg-light'>
+        <div className=' bg-light marginTop '>
         <div className='bg-warning heading container mb-3 shadow rounded ' >
         <h1 className=' p-3 fs-1 ms-5'>Product ....</h1>
     </div>

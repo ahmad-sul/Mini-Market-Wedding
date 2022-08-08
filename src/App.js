@@ -25,7 +25,7 @@ export default class App extends Component {
 
     return (
 <BrowserRouter>
-      <div className=''>
+      <div className='position-relative'>
 
 <Header/>
 

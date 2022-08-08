@@ -25,7 +25,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div>
+    <div className="marginTop ">
       <div className="bg-warning heading container mb-3 shadow rounded ">
         <h1 className=" p-3 fs-1 ms-5">Contact us ....</h1>
       </div>
