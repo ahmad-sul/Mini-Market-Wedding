@@ -16,9 +16,6 @@
     width: 200px;
     height: 150px;
 }
-.headerSelect{
-    height: 20px;
-}
 
 .navbar-nav{
     margin-left: 20%;
@@ -27,6 +24,10 @@
 .heading{
     font-family: 'Indie Flower';
     font-weight: bolder;
+
+}
+.active{
+    background-color: #ffc10773;
 }
 
 .images{
