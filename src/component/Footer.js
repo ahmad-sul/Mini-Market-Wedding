@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
 import { ImHome, ImMobile, ImWhatsapp } from "react-icons/im";
 
-// import {FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa"
 
 export default function Footer() {
   return (
@@ -100,7 +99,7 @@ export default function Footer() {
             <p>
               Mobile <ImMobile className="text-warning " /> :
             </p>
-            <p className="ms-5">0163 1116343</p>
+            <p className="ms-5">0163 1116313</p>
           </article>
           <article className="d-flex ">
             <p>
