@@ -21,7 +21,7 @@ export default function Header() {
         <div className="container-fluid">
           <nav class="navbar ">
             <div class="container">
-              <a class="navbar-brand " href="/home">
+              <a class="navbar-brand " href="/">
                 <img src={Logo} alt="logo" className="logoImg" />
               </a>
             </div>
