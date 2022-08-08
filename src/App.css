@@ -1,5 +1,21 @@
 
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    z-index: 12;
+    background-color: white;
+}
 
+.marginTop{
+    margin-top: 10.8%;
+}
+.logoImg{
+    width: 200px;
+    height: 150px;
+}
 .headerSelect{
     height: 20px;
 }
@@ -17,6 +33,10 @@
     width: 250px;
     height: 250px;
   
+}
+.homeImage{
+    display: block;
+    max-width: -webkit-fill-available;
 }
 
 .cartCard{
@@ -52,9 +72,7 @@ transform: scale(1,1.5);
 
 }
 
-/* .contact{
-    background-color: rgba(225, 240, 9, 0.61);
-} */
+
 
 .form{
     width: 400px;
@@ -63,6 +81,16 @@ transform: scale(1,1.5);
     margin-left: 25%;
     margin-top: 10px;
 }
+.carouselitem{
+   
+    margin-right: 0%;
+  ;
+    transition: ease-in-out ;
+   transition-delay: 1s;
+    /* transition: transform .6s ease-in-out; */
+  
+}
+
 
 
 @media only screen and (min-width: 600px) {
@@ -110,45 +138,4 @@ transform: scale(1,1.5);
   
 
  
-    /* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { 
-    .homeFlex{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-  
-  .recenter{
-      display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .lastfooterFlex{
-      display: flex;
-    flex-direction: row !important;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .footerFlex{
-    flex-direction: column;
-    flex-wrap: wrap;
-   padding: 10px;
-}
-
- }
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { }
-
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {  } */
-
-/* // Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {  }  */
+ 
